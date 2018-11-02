@@ -1,0 +1,27 @@
+canvas {
+    border:1px solid black;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+button {
+    display: block;
+    margin:40% auto 0 auto;
+    border:1px solid #0c81ff;
+    background: linear-gradient(45deg,  #3596ff 0%, #0c81ff 80%,#0c81ff 100%);
+    box-shadow: 0px 0px 10px #0c81ff;
+    color:white;
+    padding:10px 80px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px #0c81ff;
+}
+
+
+button:active {
+    background:#0b6ed8;
+}
