@@ -8,10 +8,11 @@ btn.addEventListener('click', () => {
 });
 
 upload.addEventListener('change', () => {
+    console.log(upload.value)
     img.src = upload.value;
     main();
 });
 
 function main() {
-    ctx.drawImage(img,0,0,100,100);
+    console.log(img.src)
 }
